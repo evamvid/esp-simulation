@@ -1,0 +1,3 @@
+[Main]
+verbose: False
+trials: 10000

@@ -1,0 +1,11 @@
+We want to see how many times the student can match all 11 envelopes to the person who wrote them.
+
+We will assign the first person to envelope 0, the second person to envelope 1, the third person to envelope 2, and so on, until the eleventh person wrote envelope 10.
+
+The program will choose at random a sequence of 11 numbers from the list [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], which represents all the envelopes. 
+
+If the the generator gave back the same sequence [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], it would entail each envelope being matched back to their owners.
+
+If the generator chose the sequence [0, 9, 2, 3, 4, 5, 6, 7, 8, 1, 10], it would entail all students being given the correct envelope, except for the second and 10th students, whose envelopes were switched.
+
+In a perfect match, each value is the same as its index in the list. So, we can check for a student being handed the right envelope by checking the if the value is the same as its index. 
